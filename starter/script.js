@@ -173,7 +173,6 @@ class App {
 
       workout = new Running([lat, lng], distance, duration, cadence);
     }
-
     // If workout cycling, create cycling object
     if (type === 'cycling') {
       const elevation = +inputElevation.value;
